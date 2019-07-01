@@ -1,0 +1,38 @@
+.header {
+  width: 80%;
+  height: 100px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin: 0.5% 1%;
+  border-bottom: 1px solid #3c586a78;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.logo {
+  align-self: center;
+  text-align: center;
+  height: 70px;
+}
+.nav {
+  font-size: 1.1rem;
+  width: 200px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-content: center;
+}
+.nav-bar {
+  margin: 0 5%;
+}
+.nav-link {
+  display: block;
+  text-align: center;
+  font-size: 1em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--main-header-text-color);
+}
+.nav-link:hover {
+  text-shadow: 0.6px 0.2px var(--main-header-text-shadow-color);
+}
