@@ -1,0 +1,59 @@
+.main-students {
+  min-height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.main-student__title {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 44px;
+  color: #3c586a;
+  padding: 5px;
+}
+
+.container {
+  width: 240px;
+  border: 1px solid #80808063;
+  margin: 10px;
+  text-align: center;
+  border-radius: 7px;
+  padding: 5px;
+  box-shadow: 0 0 4px #80808063;
+  height: 315px;
+  transition: box-shadow 1s;
+  overflow: hidden;
+}
+
+.container:hover {
+  box-shadow: 0 0 10px #80808063;
+}
+
+.container__img {
+  width: 180px;
+  height: 180px;
+  border: 1px solid #cecece;
+  border-radius: 50%;
+  padding: 5px;
+  margin: 15px 10px;
+}
+
+.container__link {
+  display: block;
+  width: 160px;
+  text-decoration: none;
+  color: #fff;
+  background: #054a80;
+  padding: 10px;
+  border-radius: 7px;
+  box-shadow: 0 0 3px #054a80f5;
+  margin: 0 auto;
+  margin-top: 15px;
+  transition: box-shadow 1s;
+}
+
+.container__link:hover {
+  box-shadow: 0 0 6px #054a80f5;
+}
